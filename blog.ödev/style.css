@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    width:100%; height: 250px; background-color:#FFEBCD;
+}
+/*üst kısım 
+.header{width: 900px;height: 550px; margin:auto;}
+icerik kısım */
+.section{width:730px;min-height:800px; margin: 0 auto; border: 1px solid #DEB887; background-color:#FFFAFA; margin-top: -20px; border-style:inset;}
+/* yan kısım*/
+/*.aside{
+    float:left;
+    width:150px;
+    min-height: 280px;
+    border-color:azure;
+    border-style: inset;
+    background-color: aliceblue;
+
+}*/
+.footer{
+    width:950px; height:200px ; background-color:#DEB887  ; border:2px solid #FAF0E6; margin: 0 auto; margin-top: 10px; 
+}
