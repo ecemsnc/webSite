@@ -9,7 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   <link href="https: //fonts.googleapis.com/css2? family= Oleo+Script+Swash+Caps:wght@700 & display=swap"
     rel="stylesheet">
-
+  <script src="https://kit.fontawesome.com/fbf778ca9c.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 
@@ -20,11 +22,13 @@
       <div class="container">
         <div class="nav">
 
-          <ul>
-            <li><a href="#">Ana Sayfa</a></li>
-            <li><a href="#">Hakkımda</a></li>
-            <li><a href="#">İletişim</a></li>
+          <ul id="anasayfaItem">
+            <li><a href="#header">Ana Sayfa</a></li>
+            <li><a href="#hakkımda">Hakkımda</a></li>
+            <li><a href="#bolum">Bölüm</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
           </ul>
+          <i class="fa-solid fa-bars" id="anasayfa-icon" onclick="anasayfaGecis();"></i>
         </div>
         <div class="baslık">
           <h1>ECEM SANCI</h1>
@@ -32,7 +36,7 @@
       </div>
     </div>
   </header>
-  <!-- header bitis-->
+
 
   <!-- hakkımda-->
 
@@ -43,13 +47,49 @@
           <h3>HAKKIMDA</h3>
         </div>
         <div class="hakkımda-icerik">
-          <div class="hakkımda-img">
+          <div class="hakkımda-img anime-left">
             <img src="1.jpg" alt="Ecem Sancı">
           </div>
-          <div class="hakkımda-text">
+          <div class="hakkımda-text anime-right">
             <h4>Ben Kimim?</h4>
-            <p>Kısaca kendimden bahsedecek olursam, 15 Ekim 2001 tarihinde İstabul'da doğdum.<br>Şu an Bandırma Onyedi Eylül Üniversitesinde bilgisayar mühendisliği 2.sınıf öğrencisiyim.</p>
+            <p>Kısaca kendimden bahsedecek olursam, 15 Ekim 2001 tarihinde İstabul'da doğdum.<br>Şu an Bandırma Onyedi
+              Eylül Üniversitesinde bilgisayar mühendisliği 2.sınıf öğrencisiyim.</p>
+
           </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--bolum-->
+  <section id="bolum">
+    <div class="bolum">
+      <div class="container">
+        <div class="bolum-baslık">
+          <h6>Bilgisayar Mühendisliğinde Neler Öğreniyorum?</h6>
+        </div>
+        <div class="bolum-icerik">
+          <p>Merhaba arkadaşlar, öncelikle sizlere bu bölümde neler öğrendiğimi,bu bölümün bana neler kattığını
+            açıklamak istiyorum.<br>Gerçekten bu bölüme başlarken hiçbir programlama dili bilgim yoktu, bildiğim tek şey
+            bilgisayardı sadece.İlk senem malum dünyada yaşanan Covid-19 vakası nedeniyle uzaktan öğrenim olarak geçti
+            ve bu benim için öğrenme konusunda bir hayli zor oldu.Online yapılan sınavlardan bile kalmışlığımız var,
+            online sınavda kalınır mı ya? demeyin çünkü bir mühendislik öğrencisiyseniz bu gayet mümkün :)
+            <br>1.sınıf güz döneminde inkilap tarihi, fizik 1,matematik 1, lineer cebir, bilgisayar mühendisliğine
+            giriş, programlamaya giriş, türk dili 1, yabancı dil 1, kariyer planlama olmak üzere 9 ders aldık.Güz
+            döneminde ise inkilap tarihi 2, fizik 2, matematik 2, ayrık matematik, nesneye dayalı programlama, devre
+            analizi, türk dili 2, yabancı dil 2 olmak üzere toplam 8 ders aldık. 1. sınıfta C ve java dillerini
+            öğrendik.
+            1. sınıfata bu derslere zor derken 2. sınıfa geçtiğinizde bu derslerin ve rahatlığın hepsi kolay gelmeye
+            başlıyor :)
+            2. sınıf güz döneminde ise diferansiyel denklemler, olasılık istatistik, veri yapıları, ileri programlama,
+            patent ve endüstriyel tasarım, elektronik olmak üzere 6 ders aldık ve bu dönemde C++ dilini öğrendik. Güz
+            döneminde ise programlama dilleri, internet tabanlı programlama, mühendislik yönetimi, mantık devreleri,
+            veritabanı yönetimi, algoritmalar derslerini alıyoruz.
+            Bu bölümü tercih etmek isteyen arkadaşlar için, evet tabiki kolay bir bölüm diyemeceğim ama yeri geldiğinde
+            bir o kadar da zevkli olabiliyor. Kendi sorununuzu çözmek kendi elinizde olduğunu için bazen sinir krizi
+            bile geçirebilirsiniz ama sonunda araştırarak delirerek çok şey öğrenmiş ve kendinize katmış oluyorsunuz.
+            <br>Diyeceklerim bu kadar eğer sorularınız olursa bana aşağıdaki mail adresimden ulabilirsiniz :)
+          </p>
         </div>
       </div>
 
@@ -63,17 +103,74 @@
         <div class="baslık1">
           <h3>İLETİŞİM</h3>
         </div>
+        <div class="iletisim-icerik">
+          <div class="logo anime-top">
+            <i class="fa-solid fa-envelope"></i>
+            <p>ecem.sanc@gmail.com</p>
+          </div>
+
+        </div>
       </div>
-    </div>
 
   </section>
 
+  <footer id="footer">
+    <div class="footer">
+      <p>Tüm Haklar Saklıdır | 2022 </p>
+    </div>
+
+  </footer>
+
+  <script>
+    window.sr = ScrollReveal();
+
+    sr.reveal('.anime-left', {
+      origin: 'left',
+      duration: 1000,
+      distance: '25rem',
+      delay: 300
+    });
+
+    sr.reveal('.anime-right', {
+      origin: 'right',
+      duration: 1000,
+      distance: '25rem',
+      delay: 600
+    });
+
+    sr.reveal('.anime-top', {
+      origin: 'top',
+      duration: 1000,
+      distance: '25rem',
+      delay: 400
+    });
+
+  </script>
 
 
 
+  <script>
+    ScrollReveal().reveal('.');
+  </script>
 
+
+  <script>
+    var anasayfaItem = document.getElementById('anasayfaItem');
+    anasayfaItem.style.maxHeight = "0px";
+
+    function anasayfaGecis() {
+      if (anasayfaItem.style.maxHeight == "0px") {
+        anasayfaItem.style.maxHeight = "200px";
+      }
+      else {
+        anasayfaItem.style.maxHeight = "0px";
+      }
+    }
+  </script>
 
 
 </body>
+
+
 
 </html>
