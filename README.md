@@ -2,10 +2,10 @@
 
 **Ecem Sancı <br/>
 201502041 <br/>
-Bilgisayar Mühendisliği 2.sınıf**
+Bilgisayar Mühendisliği 3.sınıf**
 
 
-Bu projemde kendi kişisel blogumu oluşturdum ve bilgisayar mühendisliği hakkında bilgiler verdim,
+kişisel blog.
 
-visual studio code kullandım.
+visual studio code.
 
