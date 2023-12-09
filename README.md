@@ -1,8 +1,7 @@
 # webSite
 
 **Ecem Sancı <br/>
-201502041 <br/>
-Bilgisayar Mühendisliği 3.sınıf**
+Bilgisayar Mühendisliği 3.sınıf<br/>**
 
 
 kişisel blog.
